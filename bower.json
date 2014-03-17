@@ -1,0 +1,25 @@
+{
+  "name": "cursive-website",
+  "version": "0.0.1",
+  "authors": [
+    "Jean-Laurent de Morlhon <jeanlaurent@morlhon.net>"
+  ],
+  "description": "Serpodile Cursive App Website",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "COPYRIGHT",
+  "homepage": "cursive.serpodile.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
