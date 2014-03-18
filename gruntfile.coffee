@@ -31,7 +31,7 @@ module.exports = (grunt) ->
       static:
         expand:true
         cwd:'./app/'
-        src: ['*.html','image/*.png','style/*.css']
+        src: ['*.html','image/*.png','image/*.svg','style/*.css','src/*.js','src/*.map','font/*']
         dest: './public/'
 
     watch:
