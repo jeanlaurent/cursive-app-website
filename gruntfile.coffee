@@ -1,5 +1,11 @@
 module.exports = (grunt) ->
   grunt.initConfig
+    connect:
+      server:
+        options:
+          base:'public'
+          livereload:true
+
     coffee:
       scripts:
         options:
@@ -29,27 +35,27 @@ module.exports = (grunt) ->
         src: ['*.html']
         dest: './public/'
 
-
     watch:
       scripts:
         files: ['./app/src/**/*.coffee']
         tasks: ['coffee']
-        options:
-          nospawn: true
       styles:
         files: ['./app/style/**/*.less']
         tasks: ['less']
-        options:
-          nospawn: true
       html:
         files: ['./app/**/*.html']
         tasks: ['copy']
+      livereload:
         options:
-          nospawn: true
+          livereload: true
+        files: ['./public/**/*']
+
 
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-copy'
+  grunt.loadNpmTasks 'grunt-contrib-connect'
 
-  grunt.registerTask 'default', ['watch']
+  grunt.registerTask 'default', ['connect','watch']
+  grunt.registerTask 'build', ['coffee','less','copy']
