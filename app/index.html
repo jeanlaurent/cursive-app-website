@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
-<meta charset='utf-8'>
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cursive App</title>
   <link href="style/bootstrap.min.css" rel="stylesheet">
   <link href="style/cursive.css" rel="stylesheet">
 </head>
 <body>
-<img id="app-icon" src="image/app-icon-512x512.png">
-ciikd
+<!--   <div class="container">
+
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</div> -->
+    <div id="titlecontainer" class="container-fluid custom-container">
+      <div id="first-row" class="row">
+
+        <div class="col-md-offset-1 col-md-2">
+          <img id="app-icon" src="image/app-icon-large.png">
+        </div>
+
+        <div id="title" class="col-md-9">
+          <p>
+            <span id="app-name">J'apprends l'écriture cursive</span><br/>
+            <span id="subtitle">Décomposition des lettres en signes de bases</span>
+          </p>
+          <div id="appstore-badges">
+            <a href="https://itunes.apple.com/fr/app/cursiveshd/id611725294"><img src="image/apple_store.svg"/></a>
+            <a href="https://play.google.com/store/apps/details?id=com.serpodile.drawonshape"><img src="image/google_store.png"/></a>
+            <a href="http://www.amazon.fr/Japprends-l%C3%A9criture-cursive-auditive-visuelle/dp/B00HET012M/"><img src="image/amazon_store.png"/></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="second-row" class="row">
+        <div class="col-md-12">
+          <ul>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#pédagogie">Pédagogie</a></li>
+            <li><a href="#cahiers">Cahiers Papiers</a></li>
+            <li><a href="#newsletter">NewsLetter</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+<div id="video-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-6">
+      <iframe width="560" height="315" src="//www.youtube.com/embed/xyTGlcavDgU" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+      Serpodile vous propose cette méthode qui permet d'apprendre l’écriture cursive en décomposant les 26 lettres de l’alphabet en fonction de 13 tracés de base (rond, canne ...) de manière visuelle et auditive.
+    </div>
+  </div>
+</div>
+
+    <script src="src/jquery.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
 </body>
 </html>
