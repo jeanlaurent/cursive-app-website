@@ -1,0 +1,2 @@
+$(document).ready ->
+  $('.shapes').tooltip()

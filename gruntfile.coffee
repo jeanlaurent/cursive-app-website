@@ -12,7 +12,7 @@ module.exports = (grunt) ->
           bare: true
         files: [
           src: ["./app/src/**/*.coffee"]
-          dest: "./public/js/cursive.js"
+          dest: "./public/src/cursive.js"
         ]
 
     less:
@@ -31,7 +31,7 @@ module.exports = (grunt) ->
       static:
         expand:true
         cwd:'./app/'
-        src: ['*.html','image/*.png','image/**/*.jpeg','image/*.svg','style/*.css','src/*.js','src/*.map','fonts/*']
+        src: ['*.html','image/**/*.png','image/**/*.jpeg','image/*.svg','style/*.css','src/*.js','src/*.map','fonts/*']
         dest: './public/'
 
     watch:

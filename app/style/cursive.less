@@ -7,6 +7,8 @@
 @green:#66BA7E;
 @beige:#EEE8DA;
 @brown:#B49F71;
+@container_margin: 30px;
+@container_height: @container_margin * 2 + 480px;
 
 @font-face {
 	font-family: 'HVDComicSerifProRegular';
@@ -19,12 +21,23 @@
 }
 
 body {
+
   .custom-container {
     padding-left:135 + 15px;
     padding-right:135 + 15px;
-		padding-top:30px;
-		padding-bottom:30px;
+		padding-top: @container_margin;
+		padding-bottom: @container_margin;
   }
+
+	.fixedheight-container {
+		.custom-container;
+		min-height:@container_height;
+	}
+
+	p {
+		text-indent:30px;
+		text-align:justify;
+	}
 
 	h2 {
 		margin-top:0px;
@@ -80,12 +93,17 @@ body {
   background-color:@blue;
   color:@pale-grey;
   font-size: 20px;
+	height: 315px + @container_margin * 3;
   .attaque {
 		font-family: 'HVDComicSerifProRegular', sans-serif;
     font-size: 25px;
     font-weight: bold;
   }
+	p {
+		text-indent:30px;
+	}
 	#youtube {
+		margin-top:@container_margin / 2;
 		width:560px;
 		height:315px;
 	}
@@ -111,6 +129,24 @@ body {
 	background-color:@red;
 	font-size: 20px;
 	color:@pale-grey;
+	#addition {
+		font-size:40px;
+		font-family:'HVDComicSerifProRegular', sans-serif;
+		img {
+			height: 75px;
+			margin-left:10px;
+			margin-right:10px;
+		}
+	}
+	#shapes {
+		text-align:center;
+	}
+	.shapes {
+		img {
+			max-height:75px;	
+		}
+
+	}
 }
 
 #cahier-container {
