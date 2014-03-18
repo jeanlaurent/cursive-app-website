@@ -28,11 +28,10 @@ module.exports = (grunt) ->
         ]
 
     copy:
-      html:
+      static:
         expand:true
-        flatten:true
         cwd:'./app/'
-        src: ['*.html']
+        src: ['*.html','image/*.png','style/*.css']
         dest: './public/'
 
     watch:
@@ -42,8 +41,8 @@ module.exports = (grunt) ->
       styles:
         files: ['./app/style/**/*.less']
         tasks: ['less']
-      html:
-        files: ['./app/**/*.html']
+      static:
+        files: ['./app/**/*']
         tasks: ['copy']
       livereload:
         options:
