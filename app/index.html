@@ -9,67 +9,146 @@
   <link href="style/cursive.css" rel="stylesheet">
 </head>
 <body>
-<!--   <div class="container">
 
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-</div> -->
-    <div id="titlecontainer" class="container-fluid custom-container">
-      <div id="first-row" class="row">
-
-        <div class="col-md-offset-1 col-md-2">
-          <img id="app-icon" src="image/app-icon-large.png">
-        </div>
-
-        <div id="title" class="col-md-9">
-          <p>
-            <span id="app-name">J'apprends l'écriture cursive</span><br/>
-            <span id="subtitle">Décomposition des lettres en signes de bases</span>
-          </p>
-          <div id="appstore-badges">
-            <a href="https://itunes.apple.com/fr/app/cursiveshd/id611725294"><img src="image/apple_store.svg"/></a>
-            <a href="https://play.google.com/store/apps/details?id=com.serpodile.drawonshape"><img src="image/google_store.png"/></a>
-            <a href="http://www.amazon.fr/Japprends-l%C3%A9criture-cursive-auditive-visuelle/dp/B00HET012M/"><img src="image/amazon_store.png"/></a>
-          </div>
-        </div>
-      </div>
-
-
-      <div id="second-row" class="row">
-        <div class="col-md-12">
-          <ul>
-            <li><a href="#screenshots">Screenshots</a></li>
-            <li><a href="#pédagogie">Pédagogie</a></li>
-            <li><a href="#cahiers">Cahiers Papiers</a></li>
-            <li><a href="#newsletter">NewsLetter</a></li>
-          </ul>
-
-        </div>
-      </div>
-
+<div id="title-container" class="container-fluid custom-container">
+  <div id="first-row" class="row">
+    <div class="col-md-offset-1 col-md-2">
+      <img id="app-icon" src="image/app-icon-large.png">
     </div>
 
-<div id="video-container" class="container-fluid custom-container">
-  <div class="row">
-    <div class="col-md-6">
-      <iframe width="560" height="315" src="//www.youtube.com/embed/xyTGlcavDgU" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="col-md-6">
-      Serpodile vous propose cette méthode qui permet d'apprendre l’écriture cursive en décomposant les 26 lettres de l’alphabet en fonction de 13 tracés de base (rond, canne ...) de manière visuelle et auditive.
+    <div id="title" class="col-md-9">
+      <p>
+        <span id="app-name">J'apprends l'écriture cursive</span><br/>
+        <span id="subtitle">Décomposition des lettres en signes de bases</span>
+      </p>
+      <div id="appstore-badges">
+        <a href="https://itunes.apple.com/fr/app/cursiveshd/id611725294"><img src="image/apple_store.svg"/></a>
+        <a href="https://play.google.com/store/apps/details?id=com.serpodile.drawonshape"><img src="image/google_store.png"/></a>
+        <a href="http://www.amazon.fr/Japprends-l%C3%A9criture-cursive-auditive-visuelle/dp/B00HET012M/"><img src="image/amazon_store.png"/></a>
+      </div>
     </div>
   </div>
 </div>
 
-    <script src="src/jquery.min.js"></script>
-    <script src="src/bootstrap.min.js"></script>
+<div id="navbar-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul>
+
+        <li><a href="#pedagogie-container">Pédagogie</a></li>
+        <li><a href="#screenshot-container">Tablette</a></li>
+        <li><a href="#cahier-container">Cahiers Papiers</a></li>
+        <li><a href="#footer-container">NewsLetter</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="video-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-6">
+      <iframe id="youtube" src="//www.youtube-nocookie.com/embed/xyTGlcavDgU?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+      <span class="attaque">Serpodile</span> vous propose cette méthode qui permet d'apprendre l’écriture cursive en décomposant les 26 lettres de l’alphabet en fonction de 13 tracés de base (rond, canne ...) de manière visuelle et auditive.<br/>
+    </div>
+  </div>
+</div>
+
+<div id="pedagogie-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Pédagogie</h2>
+      <p>
+        A l'origine, nous construisons nous même dans notre atelier des cahiers en vrai papier recyclable et des grands cahiers effaçables.<br>
+        L'ensemble de la méthode est disponible sous forme de cahier de 50 pages effacables.<br>
+        Pour s'entrainer à écrire, nous avons aussi des cahiers papiers, avec differents types d'interlignes du plus grand pour ceux avec le plus de difficultés jusqu'au cachier classique seyes.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <img src="image/decomposition.png"></a>
+    </div>
+  </div>
+</div>
+
+<div id="screenshot-container" class="container-fluid custom-container">
+  <div class="row">
+    <div id="screenshots" class="col-md-4">
+      <div  class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#screenshots" data-slide-to="0" class="active"></li>
+          <li data-target="#screenshots" data-slide-to="1"></li>
+          <li data-target="#screenshots" data-slide-to="2"></li>
+          <li data-target="#screenshots" data-slide-to="3"></li>
+          <li data-target="#screenshots" data-slide-to="4"></li>
+          <li data-target="#screenshots" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="image/screenshot/screenshot-1.jpeg" alt="...">
+          </div>
+          <div class="item">
+            <img src="image/screenshot/screenshot-2.jpeg" alt="...">
+          </div>
+          <div class="item">
+            <img src="image/screenshot/screenshot-3.jpeg" alt="...">
+          </div>
+          <div class="item">
+            <img src="image/screenshot/screenshot-4.jpeg" alt="...">
+          </div>
+          <div class="item">
+            <img src="image/screenshot/screenshot-5.jpeg" alt="...">
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#screenshots" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#screenshots" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <h2>Tablettes</h2>
+      S</span>erpodile vous propose cette méthode qui permet d'apprendre l’écriture cursive en décomposant les 26 lettres de l’alphabet en fonction de 13 tracés de base (rond, canne ...) de manière visuelle et auditive.
+    </div>
+
+  </div>
+
+</div>
+
+<div id="cahier-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Cahiers papiers</h2>
+      <p>
+        A l'origine, nous construisons nous même dans notre atelier des cahiers en vrai papier recyclable et des grands cahiers effaçables.<br>
+        L'ensemble de la méthode est disponible sous forme de cahier de 50 pages effacables.<br>
+        Pour s'entrainer à écrire, nous avons aussi des cahiers papiers, avec differents types d'interlignes du plus grand pour ceux avec le plus de difficultés jusqu'au cachier classique seyes.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="image/atelier.jpeg"></a>
+    </div>
+  </div>
+</div>
+
+<div id="footer-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-12">
+      &copy; <a href="serpodile.com">Serpodile</a> 2010-2014
+    </div>
+  </div>
+</div>
+
+<script src="src/jquery.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+
 </body>
 </html>
