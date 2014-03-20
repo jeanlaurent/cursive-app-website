@@ -49,12 +49,15 @@ module.exports = (grunt) ->
           livereload: true
         files: ['./public/**/*']
 
+    clean: ['./public']
+
 
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-connect'
+  grunt.loadNpmTasks 'grunt-contrib-clean'
 
-  grunt.registerTask 'default', ['connect','watch']
-  grunt.registerTask 'build', ['coffee','less','copy']
+  grunt.registerTask 'default', ['clean','build','connect','watch']
+  grunt.registerTask 'build', ['clean','coffee','less','copy']
