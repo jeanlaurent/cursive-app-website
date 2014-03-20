@@ -106,7 +106,7 @@ body #pedagogie-container {
   color: #f8f8f8;
 }
 body #pedagogie-container .addition {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
   font-size: 40px;
@@ -138,4 +138,10 @@ body #footer-container {
   font-size: 20px;
   color: #005866;
   text-align: center;
+}
+body #footer-container p {
+  font-size: 14px;
+}
+body #footer-container img {
+  margin-top: 10px;
 }
