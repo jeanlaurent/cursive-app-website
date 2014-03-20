@@ -1,3 +1,7 @@
 $(document).ready(function() {
-  return $('.shapes').tooltip();
+  return $(".thumbnail").click(function(event) {
+    event.preventDefault();
+    $('.modal-body > img').attr('src', $(event.target).attr('src'));
+    return $('#myModal').modal();
+  });
 });

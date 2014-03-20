@@ -30,6 +30,13 @@ body h2 {
   font-family: 'HVDComicSerifProRegular', sans-serif;
   color: #f8f8f8;
 }
+body h3 {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #f8f8f8;
+}
+body .modal-dialog {
+  width: 400px;
+}
 body #title-container {
   background-color: #ffffff;
   padding-bottom: 10px;
@@ -118,12 +125,6 @@ body #pedagogie-container .addition img {
 }
 body #pedagogie-container li {
   margin-bottom: 10px;
-}
-body #pedagogie-container #shapes {
-  text-align: center;
-}
-body #pedagogie-container .shapes img {
-  max-height: 75px;
 }
 body #cahier-container {
   background-color: #b49f71;
