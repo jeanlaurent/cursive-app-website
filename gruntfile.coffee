@@ -51,6 +51,11 @@ module.exports = (grunt) ->
 
     clean: ['./public']
 
+    buildGhPages:
+      production:
+        options:
+          dist: "public"
+          pull: false
 
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-watch'
@@ -58,6 +63,8 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-clean'
+  grunt.loadNpmTasks 'grunt-build-gh-pages'
 
-  grunt.registerTask 'default', ['clean','build','connect','watch']
+  grunt.registerTask 'default', ['build','connect','watch']
   grunt.registerTask 'build', ['clean','coffee','less','copy']
+  grunt.registerTask 'deploy', ['build','buildGhPages']
