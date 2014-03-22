@@ -20,6 +20,12 @@
 	font-style: normal;
 }
 
+.subtitle {
+	font-family: 'HVDComicSerifProRegular', sans-serif;
+	color:@pale-grey;
+	margin-bottom:20px;
+}
+
 body {
 
 	a:hover {
@@ -45,13 +51,10 @@ body {
 
 	h2 {
 		margin-top:0px;
-		font-family: 'HVDComicSerifProRegular', sans-serif;
-		color:@pale-grey;
 	}
 
 	h3 {
-		font-family: 'HVDComicSerifProRegular', sans-serif;
-		color:@pale-grey;
+		.subtitle
 	}
 
 	.modal-dialog {
@@ -108,20 +111,21 @@ body {
   background-color:@blue;
   color:@pale-grey;
   font-size: 20px;
-	// height: 315px + @container_margin * 3;
   .attaque {
 		font-family: 'HVDComicSerifProRegular', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
   }
 	#youtube {
-		// margin-top:@container_margin / 2;
-		// width:560px;
 		min-height:315px;
 	}
 }
 
 #screenshot-container {
+	h2 {
+		.subtitle
+	}
+
   background-color:@green;
 	font-size: 20px;
 	color:@pale-grey;
@@ -138,6 +142,9 @@ body {
 }
 
 #pedagogie-container {
+	h2 {
+		.subtitle
+	}
 	background-color:@red;
 	font-size: 20px;
 	color:@pale-grey;
@@ -158,6 +165,9 @@ body {
 }
 
 #cahier-container {
+	h2 {
+		.subtitle
+	}
 	background-color:@brown;
 	font-size: 20px;
 	color:@pale-grey;
