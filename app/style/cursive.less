@@ -8,7 +8,6 @@
 @beige:#EEE8DA;
 @brown:#B49F71;
 @container_margin: 30px;
-@container_height: @container_margin * 2 + 480px;
 
 @font-face {
 	font-family: 'HVDComicSerifProRegular';
@@ -33,16 +32,13 @@ body {
 	}
 
   .custom-container {
-    padding-left:135 + 15px;
-    padding-right:135 + 15px;
+		@media screen and (min-width: 768px) {
+			padding-left:135 + 15px;
+			padding-right:135 + 15px;
+		}
 		padding-top: @container_margin;
 		padding-bottom: @container_margin;
   }
-
-	.fixedheight-container {
-		.custom-container;
-		min-height:@container_height;
-	}
 
 	.justify {
 		text-indent:30px;
