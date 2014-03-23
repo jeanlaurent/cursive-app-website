@@ -1,6 +1,6 @@
 # Cursive Serpodile WebSite
 
-should be up at http://jeanlaurent.github.io/cusrive-app-website
+should be up at http://jeanlaurent.github.io/cursive-app-website
 
 ## pre-requisite (grunt)
 ```
