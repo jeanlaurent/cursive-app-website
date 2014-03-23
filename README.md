@@ -4,10 +4,10 @@ should be up at http://jeanlaurent.github.io/cursive-app-website
 
 # Todo
 
-  [ ] Check mobile 
-  [ ] Add google stat
-  [ ] Add Mailjet form
-  [ ] remove margin-top on container, add it back on h2
+  * [] Check mobile 
+  * [] Add google stat
+  * [] Add Mailjet form
+  * [] remove margin-top on container, add it back on h2
 
 # Install and Run
 
