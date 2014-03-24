@@ -56,6 +56,7 @@ module.exports = (grunt) ->
         options:
           dist: "public"
           pull: false
+          cname: "cursive.serpodile.com"
 
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-watch'
