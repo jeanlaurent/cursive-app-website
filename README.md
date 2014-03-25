@@ -8,8 +8,9 @@ should be up at http://jeanlaurent.github.io/cursive-app-website
   * [ ] English translation
   * [ ] Add google stat
   * [ ] Add Mailjet form
-  * 
+  
 If we have time (we won't) :
+
   * [ ] remove margin-top on container, add it back on h2
   * [ ] check why navbar items are not properly aligned on iphone safari 
 
