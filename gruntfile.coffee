@@ -34,6 +34,19 @@ module.exports = (grunt) ->
         src: ['*.html','image/**/*','style/*.css','src/*.js','src/*.map','fonts/*','favicon.ico']
         dest: './public/'
 
+    rename:
+      index:
+        src:'./public/index_fr.html',
+        dest:'./public/index.html',
+
+    template_runner:
+      basic:
+        options:
+          locales: ['fr','en']
+          directory: './i18n/'
+        files:
+          './public/index.html':'./app/index.template'
+
     watch:
       scripts:
         files: ['./app/src/**/*.coffee']
@@ -44,6 +57,9 @@ module.exports = (grunt) ->
       static:
         files: ['./app/**/*']
         tasks: ['copy']
+      i18n:
+        files: ['./i18n/*.json','./app/*.template']
+        tasks: ['template_runner','rename']
       livereload:
         options:
           livereload: true
@@ -64,8 +80,10 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-clean'
+  grunt.loadNpmTasks 'grunt-template-runner'
+  grunt.loadNpmTasks 'grunt-rename'
   grunt.loadNpmTasks 'grunt-build-gh-pages'
 
   grunt.registerTask 'default', ['build','connect','watch']
-  grunt.registerTask 'build', ['clean','coffee','less','copy']
-  grunt.registerTask 'deploy', ['build','buildGhPages']
+  grunt.registerTask 'build',   ['clean','coffee','less','copy','template_runner','rename']
+  grunt.registerTask 'deploy',  ['build','buildGhPages']

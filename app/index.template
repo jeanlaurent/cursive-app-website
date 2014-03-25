@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="_('language')">
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cursive App</title>
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <link href="style/cursive.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="image/favicon.png" />
+  <link rel="apple-touch-icon" href="image/touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="image/touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="image/touch-icon-114x114.png" />
+</head>
+<body>
+<div id="language">
+  _('language-block')
+</div>
+<div id="title-container" class="container-fluid custom-container">
+  <div id="first-row" class="row">
+    <div class="col-md-3">
+      <img id="app-icon" src="image/app-icon-large.png" alt="Cursive App Icon">
+    </div>
+
+    <div id="title" class="col-md-9">
+        <h1 id="app-name">_('title')</h1>
+        <h2 id="subtitle">_('subtitle')</h2>
+      <div id="appstore-badges">
+        <a href="https://itunes.apple.com/fr/app/cursiveshd/id611725294"><img src="image/apple_store.svg" alt="Apple Store Icon"/></a>
+        <a href="https://play.google.com/store/apps/details?id=com.serpodile.drawonshape"><img src="image/google_store.png" alt="Google Play Icon"/></a>
+        <a href="http://www.amazon.fr/Japprends-l%C3%A9criture-cursive-auditive-visuelle/dp/B00HET012M/"><img src="image/amazon_store.png" alt="Amazon Icon"/></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="navbar-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul>
+        <li><a href="#pedagogie-container">_('nav-item-1')</a></li>
+        <li><a href="#screenshot-container">_('nav-item-2')</a></li>
+        <li><a href="#cahier-container">_('nav-item-3')</a></li>
+        <li><a href="#footer-container">_('nav-item-4')</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="video-container" class="container-fluid custom-container">
+  <div class="row">
+      <iframe id="youtube" class="col-xs-12 col-md-6" src="//www.youtube-nocookie.com/embed/xyTGlcavDgU?rel=0" frameborder="0" allowfullscreen></iframe>
+    <div class="col-xs-12 col-md-6">
+      <p class="justify">
+        <span class="attaque">_('title')</span>_('video-paragraph-1')
+      </p>
+      <p>
+        _('video-paragraph-2')
+      </p>
+      <p>
+        _('video-paragraph-3')
+      </p>
+      <p>
+        _('video-paragraph-4')
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="pedagogie-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>_('nav-item-1')</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-5 col-lg-6">
+      <p>
+        _('pedagogy-paragraph')
+      </p>
+      <ul>
+          <li>_('pedagogy-line-1')</li>
+          <li>_('pedagogy-line-2')</li>
+          <li>_('pedagogy-line-3')</li>
+          <li>_('pedagogy-line-4')</li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-md-7 col-lg-6">
+      <div class="addition col-xs-12">
+        <img  src="image/shapes/rond.png" alt="_('shape-round')">+<img src="image/shapes/canneenvers.png" alt="_('shape-canne-envers')">=<img src="image/shapes/a.png" alt="_('shape-a')">
+      </div>
+      <div class="addition col-xs-12" >
+        <img src="image/shapes/boucleendroit.png" alt="_('shape-boucle-endroit')">+<img src="image/shapes/pontenvers.png" alt="_('shape-pont-envers')">+<img src="image/shapes/traitpenche.png" alt="_('shape-trait-penche')">=<img src="image/shapes/b.png" alt="_('shape-b')">
+      </div>
+      <div class="addition col-xs-12" >
+        <img src="image/shapes/canneendroit.png" alt="_('shape-canne-endroit')">+<img src="image/shapes/pontenvers.png" alt="_('shape-pont-envers')">+<img src="image/shapes/boucleenvers.png" alt="_('shape-boucle-envers')">=<img src="image/shapes/y.png" alt="_('shape-y')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="screenshot-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>_('visual-title')</h2>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="image/feu-vert.gif" alt="_('feu-vert')">
+        <div class="caption">
+          <p>
+            _('feu-vert-caption')
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="image/controle-trace.gif" alt="_('controle-trace')">
+        <div class="caption">
+          <p>
+            _('controle-trace-caption')
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="image/affichage-realisation.gif" alt="_('realisation')">
+        <div class="caption">
+          <p>
+            _('realisation-caption')
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="image/navigation.png" alt="_('navigation-zoom')">
+      </div>
+    </div>
+    <div class="col-md-8">
+      <ul>
+        <li>_('feature-line-1')</li>
+        <li>_('feature-line-2')</li>
+        <li>_('feature-line-3')</li>
+        <li>_('feature-line-4')</li>
+      </ul>
+      <h3>_('feature-more')</h3>
+      <ul>
+        <li>_('feature-line-5')</li>
+        <li>_('feature-line-6')</li>
+        <li>_('feature-line-7')</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="cahier-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>_('nav-item-3')</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail screenshot">
+        <img src="image/screenshot/screenshot-1.jpeg" alt="cursive app screenshot 1">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail screenshot">
+        <img src="image/screenshot/screenshot-2.jpeg" alt="cursive app screenshot 2">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail screenshot">
+        <img src="image/screenshot/screenshot-4.jpeg" alt="cursive app screenshot 3">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail screenshot">
+        <img src="image/screenshot/screenshot-5.jpeg" alt="cursive app screenshot 4">
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="footer-container" class="container-fluid custom-container">
+  <div class="row">
+    <div class="col-md-4">
+      <p>
+        Code &amp; Design: <a href="http://serpodile.com">Serpodile</a><br>
+        Hosting: <a href="http://github.com">GitHub</a>
+      </p>
+    </div>
+    <div class="col-md-4">
+        &copy; <a href="serpodile.com">Serpodile</a> 2010-2014<br>
+        <a href="http://serpodile.com"><img src="image/serpodile-logo.png" alt="serpodile logo"/></a>
+    </div>
+    <div class="col-md-4">
+      <p>
+        _('serpodile-workbook')
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="screenshotModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="image/screenshot/screenshot-1.jpeg">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="src/jquery.min.js"></script>
+<script src="src/bootstrap.min.js"></script>
+<script src="src/cursive.js"></script>
+
+</body>
+</html>
