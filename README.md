@@ -1,6 +1,6 @@
 # Cursive Serpodile WebSite
 
-should be up at http://jeanlaurent.github.io/cursive-app-website
+should be up at http://jeanlaurent.github.io/cursive-app-website and http://cursive.serpodile.com
 
 # Todo
 
