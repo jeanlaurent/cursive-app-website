@@ -1,6 +1,6 @@
 {
-	"language": "fr",
-	"language-block": "<a href=\"index_en.html\">English Version</a>.",
+	"lang": "fr",
+	"lang-block": "<a href=\"index_en.html\">English Version</a>.",
 	"title": "J'apprends l'écriture cursive",
 	"subtitle": "Une méthode visuelle, auditive et verbale",
 	"nav-item-1": "Pédagogie",
