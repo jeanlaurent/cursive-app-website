@@ -10,6 +10,9 @@
   color: #f8f8f8;
   margin-bottom: 20px;
 }
+body #language {
+  float: right;
+}
 body a:hover {
   text-decoration: none;
 }
