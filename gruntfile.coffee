@@ -44,7 +44,7 @@ module.exports = (grunt) ->
         options:
           locales: ['fr','en']
         files:
-          'public':['app/index.html']
+          'public/':['app/index.html']
 
     watch:
       scripts:
