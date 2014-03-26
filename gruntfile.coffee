@@ -11,18 +11,18 @@ module.exports = (grunt) ->
         options:
           bare: true
         files: [
-          src: ["./app/src/**/*.coffee"]
-          dest: "./public/src/cursive.js"
+          src: ["app/src/**/*.coffee"]
+          dest: "public/src/cursive.js"
         ]
 
     less:
       development:
         options:
-          paths: ['./app/style/']
+          paths: ['app/style/']
         files: [
           expand:true
-          cwd: './app/style/'
-          dest: './public/style'
+          cwd: 'app/style/'
+          dest: 'public/style'
           src: ['*.less']
           ext: '.css'
         ]
@@ -30,42 +30,42 @@ module.exports = (grunt) ->
     copy:
       static:
         expand:true
-        cwd:'./app/'
+        cwd:'app/'
         src: ['*.html','image/**/*','style/*.css','src/*.js','src/*.map','fonts/*','favicon.ico']
-        dest: './public/'
+        dest: 'public/'
 
     rename:
       index:
-        src:'./public/index_fr.html',
-        dest:'./public/index.html',
+        src:'public/index_fr.html',
+        dest:'public/index.html',
 
     template_runner:
       basic:
         options:
           locales: ['fr','en']
-          directory: './i18n/'
+          directory: 'locales'
         files:
-          './public/index.html':'./app/index.template'
+          './public/index.html':'./app/index.html'
 
     watch:
       scripts:
-        files: ['./app/src/**/*.coffee']
+        files: ['app/src/**/*.coffee']
         tasks: ['coffee']
       styles:
-        files: ['./app/style/**/*.less']
+        files: ['app/style/**/*.less']
         tasks: ['less']
       static:
-        files: ['./app/**/*']
+        files: ['app/**/*']
         tasks: ['copy']
       i18n:
-        files: ['./i18n/*.json','./app/*.template']
+        files: ['data/*.json','./app/*.html']
         tasks: ['template_runner','rename']
       livereload:
         options:
           livereload: true
-        files: ['./public/**/*']
+        files: ['public/**/*']
 
-    clean: ['./public']
+    clean: ['public']
 
     buildGhPages:
       production:
