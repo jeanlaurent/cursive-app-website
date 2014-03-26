@@ -69,9 +69,9 @@ module.exports = (grunt) ->
     buildGhPages:
       production:
         options:
-          dist: "public"
+          dist: 'public'
           pull: false
-          cname: "cursive.serpodile.com"
+          cname: 'cursive.serpodile.com'
 
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-watch'
