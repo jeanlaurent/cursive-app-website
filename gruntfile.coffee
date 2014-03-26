@@ -18,10 +18,10 @@ module.exports = (grunt) ->
     less:
       development:
         options:
-          paths: ['app/style/']
+          paths: ['app/style']
         files: [
           expand:true
-          cwd: 'app/style/'
+          cwd: 'app/style'
           dest: 'public/style'
           src: ['*.less']
           ext: '.css'
@@ -30,9 +30,9 @@ module.exports = (grunt) ->
     copy:
       static:
         expand:true
-        cwd:'app/'
+        cwd:'app'
         src: ['*.html','image/**/*','style/*.css','src/*.js','src/*.map','fonts/*','favicon.ico']
-        dest: 'public/'
+        dest: 'public'
 
     rename:
       index:
@@ -43,9 +43,9 @@ module.exports = (grunt) ->
       basic:
         options:
           locales: ['fr','en']
-          directory: 'locales'
+          directory: 'locales/'
         files:
-          './public/index.html':'./app/index.html'
+          'public':'app/index.html'
 
     watch:
       scripts:
@@ -58,7 +58,7 @@ module.exports = (grunt) ->
         files: ['app/**/*']
         tasks: ['copy']
       i18n:
-        files: ['data/*.json','./app/*.html']
+        files: ['locales/*.json','app/index.html']
         tasks: ['template_runner','rename']
       livereload:
         options:
