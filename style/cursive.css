@@ -12,6 +12,12 @@
 }
 body #language {
   float: right;
+  padding-right: 10px;
+  text-align: center;
+}
+body #language img {
+  width: 32px;
+  height: 32px;
 }
 body a:hover {
   text-decoration: none;
