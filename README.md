@@ -7,7 +7,7 @@ should be up at http://jeanlaurent.github.io/cursive-app-website and http://curs
   * [X] Check mobile
   * [X] English translation
   * [X] Add google stat
-  * [ ] Add app store image in english
+  * [X] Add app store image in english
   * [ ] Add Mailjet form
 
 If we have time (we won't) :
