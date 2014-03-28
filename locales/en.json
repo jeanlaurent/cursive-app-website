@@ -26,7 +26,7 @@
 	"shape-b": "B in cursive",
 	"shape-boucle-envers": "Upside down loop shape",
 	"shape-y": "Y in cursive",
-	"visual-title": "Visual and audiroty clues",
+	"visual-title": "Visual and Audio clues",
 	"feu-vert-caption": "The green light indicates where the child has to start drawning, while the red light indicates the end.",
 	"feu-vert": "Green Light",
 	"controle-trace-caption": "Drawning direction control, so the gesture is the one taught in class.",
@@ -42,5 +42,8 @@
 	"feature-line-5": "The name and sound of each letters is spoken for your kid to associate it to the letters.",
 	"feature-line-6": "A explaning video teaching the method to the child: coloured frame, basic shapes building etc...",
 	"feature-line-7": "The app speaks French & English (with specific letters for each country)",
-	"serpodile-workbook": "Tired of tablets ?<br>We also build ourselves wonderful eraseable workbook using the same method. You can find them in our <a href=\"http://serpodile.com/\">web shop</a>."
+	"serpodile-workbook": "Tired of tablets ?<br>We also build ourselves wonderful eraseable workbook using the same method. You can find them in our <a href=\"http://serpodile.com/\">web shop</a>.",
+	"contact-us": "You want to suggest a feature ? It doesn't work as expected ?<br><a href=\"mailto:cursive@serpodile.com\">Contact us !</a><br>We update this app regularly with your feedback.",
+	"privacy": "<a href=\"http://blog.serpodile.com/privacy/\">Privacy Policy</a>",
+	"legal": "<a href=\"http://blog.serpodile.com/mentions-legales/\">Terms of Service</a>"
 }
