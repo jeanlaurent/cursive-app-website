@@ -6,7 +6,8 @@
 	"nav-item-1": "Pedagogy",
 	"nav-item-2": "Visual Clue",
 	"nav-item-3": "Screenshots",
-	"nav-item-4": "Serpodile",
+	"nav-item-4": "More apps",
+	"nav-item-5": "Serpodile",
 	"video-paragraph-1": " is an app to help children write with ease in cursive, available on iPhone/iPad and Android.",
 	"video-paragraph-2": "It offers novel visual and audio help designed to help children.",
 	"video-paragraph-3": "This method has already been quite succesfull in its <a href=\"http://serpodile.com/product/apprendre-ecrire-cursive-effacable\">erasable paperback</a> version.",
@@ -46,5 +47,9 @@
 	"contact-us": "You want to suggest a feature ? It doesn't work as expected ?<br><a href=\"mailto:cursive@serpodile.com\">Contact us !</a><br>We update this app regularly with your feedback.",
 	"privacy": "<a href=\"http://blog.serpodile.com/privacy/\">Privacy Policy</a>",
 	"legal": "<a href=\"http://blog.serpodile.com/mentions-legales/\">Terms of Service</a>",
-	"video":"http://www.youtube-nocookie.com/embed/YjCEIvRhKgk?rel=0"
+	"video": "http://www.youtube-nocookie.com/embed/YjCEIvRhKgk?rel=0",
+	"other-apps": "More apps",
+	"Captial-site": "http://capital.serpodile.com/index_en.html",
+	"Number-site": "http://number.serpodile.com/index_en.html",
+	"Bundle-site": "https://itunes.apple.com/en/app-bundle/japprends-ecrire-une-methode/id921494292?mt=8"
 }

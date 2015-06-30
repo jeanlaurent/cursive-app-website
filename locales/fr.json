@@ -6,7 +6,8 @@
 	"nav-item-1": "Pédagogie",
 	"nav-item-2": "Aides visuelles",
 	"nav-item-3": "Ecrans",
-	"nav-item-4": "Serpodile",
+	"nav-item-4": "Nos applis",
+	"nav-item-5": "Serpodile",
 	"video-paragraph-1": " est une application d'apprentissage de l'écriture cursive, disponible sur iPhone/iPad et Android.",
 	"video-paragraph-2": "Elle dispose d'aides visuelles et auditives originales conçues pour accompagner les enfants en difficultés.",
 	"video-paragraph-3": "Cette méthode a déjà rencontré un grand succès dans sa version <a href=\"http://serpodile.com/product/apprendre-ecrire-cursive-effacable\">cahier effaçable</a>",
@@ -46,5 +47,9 @@
 	"contact-us": "Vous voudriez une nouvelle fonction ? Ça ne marche pas comme vous le souhaiteriez ?<br><a href=\"mailto:cursive@serpodile.com\">Dites le nous !</a><br>Nous mettons cette application régulièrement à jour avec vos suggestions.",
 	"privacy": "<a href=\"http://blog.serpodile.com/vieprivee/\">Vie Privée</a>",
 	"legal": "<a href=\"http://blog.serpodile.com/mentions-legales/\">Mention légales</a>",
-	"video":"http://www.youtube-nocookie.com/embed/SRlqPpok1Q8?rel=0"
+	"video": "http://www.youtube-nocookie.com/embed/SRlqPpok1Q8?rel=0",
+	"other-apps": "Nos autres applications",
+	"Captial-site": "http://capital.serpodile.com/index.html",
+	"Number-site": "http://number.serpodile.com/index.html",
+	"Bundle-site": "https://itunes.apple.com/fr/app-bundle/japprends-ecrire-une-methode/id921494292?mt=8"
 }
