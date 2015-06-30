@@ -44,6 +44,12 @@ body h3 {
   color: #f8f8f8;
   margin-bottom: 20px;
 }
+body h4 {
+  font-family: 'HVDComicSerifProRegular', sans-serif;
+  color: #df5621;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
 body .modal-dialog {
   width: 808px;
 }
@@ -159,7 +165,7 @@ body #pedagogie-container li {
   margin-bottom: 10px;
 }
 body #cahier-container {
-  background-color: #b49f71;
+  background-color: #fab221;
   font-size: 20px;
   color: #f8f8f8;
 }
@@ -172,13 +178,29 @@ body #cahier-container img {
   width: 360px;
 }
 body #contact-container {
-  background-color: #eee8da;
+  background-color: #b49f71;
   text-align: center;
-  color: #005866;
+  color: #f8f8f8;
   font-size: 20px;
 }
 body #contact-container a {
   font-size: 30px;
+}
+body #otherapps-container {
+  background-color: #eee8da;
+  text-align: left;
+}
+body #otherapps-container #capital-icon {
+  width: 192px;
+  height: 192px;
+}
+body #otherapps-container #number-icon {
+  width: 192px;
+  height: 192px;
+}
+body #otherapps-container #bundle-icon {
+  width: 192px;
+  height: 192px;
 }
 body #footer-container {
   background-color: #f8f8f8;
