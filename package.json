@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "cursive.serpodile.com website",
   "author": "Jean-Laurent de Morlhon <jeanlaurent@morlhon.net>",
-  "license" : "MIT",
-  "repository" : {
-      "type" : "git",
-      "url" : "https://github.com/jeanlaurent/cursive-app-website.git"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeanlaurent/cursive-app-website.git"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
